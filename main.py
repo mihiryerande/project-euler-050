@@ -13,9 +13,10 @@
 #     Which prime, below one-million, can be written as the sum of the most consecutive primes?
 
 from math import floor, sqrt
+from typing import List
 
 
-def main():
+def main() -> List[int]:
     """
     Returns the longest sequence of consecutive primes
       which itself sums to a prime below one million.
